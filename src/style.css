@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px 0px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  20px 20px 60px #cccccc,
+             -20px -20px 60px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.indicador{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+    
+
+.titulo h1{
+    font-size: 30px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#elon-musk,
+#world-hunger {
+    width: 45%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto; 
+    margin-bottom: 24px;
+}
+
+
+.destaque{
+    font-weight: bold;
+    color: #ff2121;
+}
+
+.instituicoes h2{
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.instituicoes p{
+    margin-top: -15px;
+}
+
+.link-instituicoes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link-instituicoes img{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+
+.link-instituicoes a{
+    transition: 0.3s;
+}
+
+
+.link-instituicoes a:hover{
+    transform: scale(1.03);
+}
+
+@media (max-width: 915px){
+
+    #elon-musk,
+#world-hunger{
+    width: 100%;
+}
+
+    .indicador{
+        flex-wrap: wrap;
+    }
+
+    .titulo h1{
+        margin: 0 auto;
+    }
+
+}
