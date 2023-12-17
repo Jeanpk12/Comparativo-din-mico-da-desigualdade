@@ -3,6 +3,8 @@
 
 ![image](https://github.com/Jeanpk12/Comparativo-din-mico-da-desigualdade/assets/122842874/2c86c16f-a89b-410d-a973-8dc91facd5c2)
 
+<a href="https://jeanpk12.github.io/Comparativo-din-mico-da-desigualdade/">GitHub Pages</a>
+
 <h2>Tecnologias Utilizadas</h2>
 <ul>
   <li>HTML</li>
