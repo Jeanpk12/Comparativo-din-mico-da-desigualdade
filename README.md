@@ -1,6 +1,8 @@
 <h1>Comparativo Dinâmico da Desigualdade</h1>
 <p>Este projeto é um experimento interativo que visa destacar a disparidade entre a acumulação de riqueza por indivíduos notáveis e as trágicas consequências da fome global. O projeto compara o ganho do empresário Elon Musk, considerado o homem mais rico do mundo, com o número de mortes diárias causadas pela fome em todo o mundo visando destacar a desigualdade social.</p>
 
+![image](https://github.com/Jeanpk12/Comparativo-din-mico-da-desigualdade/assets/122842874/2c86c16f-a89b-410d-a973-8dc91facd5c2)
+
 <h2>Tecnologias Utilizadas</h2>
 <ul>
   <li>HTML</li>
